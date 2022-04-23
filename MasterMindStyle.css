@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url('Font/static/Montserrat-ExtraBold.ttf');
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat Black";
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+h1{
+  margin: 5%;
+}
+
+.active {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+.GameBoard {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.SENDCOLORS {
+  grid-row: 2;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: #ed6a5a;
+  /* border: none; */
+  cursor: pointer;
+}
+#button2 {
+  background-color: #5ca4a9;
+  /* border: none; */
+  cursor: pointer;
+}
+#button3 {
+  background-color: #88d18a;
+  /* border: none; */
+  cursor: pointer;
+}
+#button4 {
+  background-color: #ce7da5;
+  /* border: none; */
+  cursor: pointer;
+}
+#button5 {
+  background-color: #a833b9;
+  /* border: none; */
+  cursor: pointer;
+}
+.ChoiceBoard {
+  display: flex;
+  justify-content: space-between;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.buttonColors {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  grid-column: span 2;
+  margin: 5%;
+  border: solid 3px white;
+}
+
+.ButtonChoiceSection {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecece;
+  border-radius: 50px;
+}
+
+.SectionActionButton {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.SectionActionButton #Arrow {
+  margin: 5%;
+  background-color: #cecece;
+  width: 50px;
+  height: 50px;
+}
+
+.SectionActionButton #circleArrow {
+  margin: 5%;
+  background-color: #cecece;
+  width: 50px;
+  height: 50px;
+}
+
+.SectionActionButton #DarkMode {
+  margin: 5%;
+  background-color: #cecece;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+#Icons {
+  width: 40px;
+  height: 40px;
+}
+
+.SendArrow {
+  width: 40px;
+  height: 40px;
+}
+
+.reload {
+  width: 40px;
+  height: 40px;
+}
+
+.Moon {
+  width: 40px;
+  height: 40px;
+}
+
+.Colors {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  background-color: #cecece;
+  margin: 2%;
+}
+
+.colorsEmptyRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+.colorsEmptyRow4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.colorsEmptyRow10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+.plateau {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.plateBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background: #cecece;
+  width: 250px;
+  min-height: 100px;
+  max-height: auto;
+
+  border-radius: 50px;
+  padding: 15%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.Check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  background: #cecece;
+  min-width: 50px;
+  max-width: auto;
+  min-height: 25px;
+  max-height: auto;
+
+  border-radius: 50px;
+  margin-left: 5%;
+  padding: 20%;
+}
+
+.CheckedColors {
+  grid-column: 2;
+  margin-bottom: 5%;
+}
+
+
